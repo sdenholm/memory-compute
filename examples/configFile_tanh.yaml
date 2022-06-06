@@ -1,0 +1,12 @@
+---
+vivado-project-directory: "/path/to/vivado_project_dir"
+function:
+  name: "tanh"
+  arguments:
+    - name:      x
+      type:      float
+      width:     16
+      precision: 11
+  output-width:     16
+  output-type:      float
+  output-precision: 11

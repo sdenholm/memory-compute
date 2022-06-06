@@ -1,0 +1,15 @@
+---
+vivado-project-directory: "/path/to/vivado_project_dir"
+function:
+  name: "arb"
+  arguments:
+    - name:  select
+      type:  uint
+      width: 2
+    - name:  value
+      type:  float
+      width: 12
+      precision: 7
+  output-width:     16
+  output-type:      float
+  output-precision: 11

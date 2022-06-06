@@ -1,0 +1,13 @@
+---
+vivado-project-directory: "/path/to/vivado_project_dir"
+function:
+  name: "mult"
+  arguments:
+    - name:  x
+      type:  uint
+      width: 4
+    - name:  y
+      type:  uint
+      width: 4
+  output-width: 8
+  output-type:  uint
